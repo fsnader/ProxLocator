@@ -2,9 +2,19 @@
 
 Sistema de Localização em Tempo Real baseado em RFID, desenvolvido como projeto de final de curso de Engenharia de Controle e Automação na UFMG.
 
+## Estrutura do Repositório
+
+### Docs
+Contém os materiais acadêmicos desenvolvidos no projeto:
 - [Monografia Completa](../main/docs/monografia.pdf)
 - [Apresentação]("../../main/docs/apresentacao.pdf")
 
+### SRC
+Contém todo o código desenvolvido no projeto, dividido basicamente em 2 partes:
+#### ProxLocator
+Código da aplicação .NET de captação, tratamento e exibição de dados (Linguagem: C#)
+#### NeuranNetworks
+Código Python utilizado para gerar as redes neurais do sistema e os modelos gerados.
 
 ## Arquitetura
 
@@ -149,6 +159,3 @@ Caso o modo de simulação esteja desligado, o programa irá iniciar o receptor 
 Já os botões de iniciar/parar a aplicação são utilizados para iniciar e interromper o processamento das mensagens, que tem os resultados exibidos em tempo real tanto no gráfico de posição quanto no card de resultados.
 
 ![image](https://user-images.githubusercontent.com/42560361/168937710-2512deda-f84d-40ac-9f46-f249a1441480.png)
-
-## Estrutura do Projeto
-TODO
