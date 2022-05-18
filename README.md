@@ -147,3 +147,6 @@ Na interface gráfica, apresentada na figura abaixo, são exibidos os seguintes 
 Caso o modo de simulação esteja desligado, o programa irá iniciar o receptor de pacotes UDP e todos os componentes de processamento de mensagens e cálculo de posição. Caso o modo de simulação esteja ativado, os componentes de processamento serão inicializados sem o receptor de pacotes UDP e os dados de RSSI serão obtídos de um arquivo de texto.
 
 Já os botões de iniciar/parar a aplicação são utilizados para iniciar e interromper o processamento das mensagens, que tem os resultados exibidos em tempo real tanto no gráfico de posição quanto no card de resultados.
+
+## Estrutura do Projeto
+TODO
